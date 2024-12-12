@@ -20,7 +20,7 @@ class S3RepositoryS3Test(val sut: S3Repository) : WordSpec() {
             // type your credentials
             registry.add("aws.access-key-id") { "" }
             registry.add("aws.secret-key") { "" }
-            registry.add("aws.region") { "" }
+            registry.add("aws.region") { "ap-northeast-1" }
         }
     }
 
